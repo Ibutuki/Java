@@ -1,0 +1,21 @@
+package task;
+
+public class Cart {
+	String name;
+	String number;
+	int price;
+	int amount;
+	public Cart(String name, String number, int price, int amount) {
+		super();
+		this.name = name;
+		this.number = number;
+		this.price = price;
+		this.amount = amount;
+	}
+	public Cart() {
+		super();
+	}	
+	public void fruitAddName(String name){
+		this.name = name;
+	}
+}

@@ -1,0 +1,10 @@
+
+public class e14 {
+ public static void main(String[] args) {
+	 int i = 0;
+	 int sum = 0;
+	 for(int a = 1;a<11;++i){
+		sum = sum+i;
+	}
+}
+}

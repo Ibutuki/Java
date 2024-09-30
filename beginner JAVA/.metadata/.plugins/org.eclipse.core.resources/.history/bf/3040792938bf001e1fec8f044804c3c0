@@ -1,0 +1,9 @@
+package task;
+
+public class Fruit {
+	String name;
+	String slogan;
+	String number;
+	int price;
+	int amount;	
+}

@@ -1,0 +1,19 @@
+package task;
+
+public class Cart {
+	String name;
+	String number;
+	int price;
+	int amount;
+	public Cart(String name, String number, int price, int amount) {
+		super();
+		this.name = name;
+		this.slogan = slogan;
+		this.number = number;
+		this.price = price;
+		this.amount = amount;
+	}
+	public Cart() {
+		super();
+	}	
+}

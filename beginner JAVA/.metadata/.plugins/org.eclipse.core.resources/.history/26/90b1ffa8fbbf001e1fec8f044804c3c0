@@ -1,0 +1,19 @@
+package task;
+
+public class User {
+	String name;
+	String pw;
+	String phone;
+	int charge;
+	public User(String name, String pw, String phone, int charge) {
+		super();
+		this.name = name;
+		this.pw = pw;
+		this.phone = phone;
+		this.charge = charge;
+	}
+	public User() {
+		super();
+	}
+	
+}
